@@ -3,15 +3,15 @@
     height: 80px;
     border-bottom: 2px solid;
 }
-.carousel-item{height: 100vh;}
+
 .logo{width: 150px;}
 .logo img{width: 100%;}
 a.navItem {
-padding: 17px;
-font-size: 17px;
-font-weight: bold;
-transition: 0.5s;
-color: black;
+    padding: 17px;
+    font-size: 17px;
+    font-weight: 600;
+    transition: 0.5s;
+    color: black;
 }
 a.navItem:hover{text-decoration: none;
 color: orange;}
@@ -57,7 +57,7 @@ a.p-2.bd-highlight.color {
 }
 .categoriesTitle{text-align: center;}
 
-span {
+h2 span {
     padding-bottom: 9px;
     border-bottom: 7px solid orange;
     border-radius: 15px;
@@ -80,7 +80,16 @@ span {
 div#regday {
     padding-top: 120px;
 }
-footer p{padding-top: 100px;
-    text-align: center;}
+footer#footer {
+    padding-top: 80px;
+}
+footer p {
+    padding-top: 9px;
+    text-align: center;
+    border-top: 1px solid;
+    background-color: #ededed;
+    padding-bottom: 13px;
+    margin-bottom: 0px;
+}
 
 
